@@ -11,7 +11,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     });
 
     // Envia la solicitud POST
-    fetch('https://script.google.com/macros/s/AKfycbwtTpuoiKeZGoxxPRLSIA2BhuP7EhX14Cv8k9OWXVgIw-70J4aUh9zpWX13ZA6pGb8UjQ/exec', { // Reemplaza con la URL de tu servidor
+    fetch('https://script.google.com/macros/s/AKfycbyHLB-JDO-pMesKIe8zc1JEPXyTTR8x1eQ2A7XpFzFp2V--qdVSQ77Se1bCy08T2CRJPg/exec', { // Reemplaza con la URL de tu servidor
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
